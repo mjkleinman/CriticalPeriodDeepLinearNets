@@ -2,5 +2,7 @@ matrixcompletion/plots/
 multipath/plots/
 .idea/
 matrixcompletion/output_july23/
-matrixcompletion/output_nov14/
+matrixcompletion/output_nov17/
 .DS_Store
+matrix_completion/__pycache__/
+multipath/__pycache__/
