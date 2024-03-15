@@ -1,0 +1,14 @@
+output_dir: development
+depth: 3 # depth of each patway
+dt: 0.01  # learning rate
+T: 1000  # Number of epochs
+eps: 0.01  # scale of noise on diag
+add_noise_diag_scale: 0.1
+deficit_length: 200
+deficit_start_epoch: [ 0 ]
+sing_def_idx: 1
+nonlin: Tanh #'Relu' #'Tanh'
+use_deficit: True
+pathway_width: 100
+seed: 0
+

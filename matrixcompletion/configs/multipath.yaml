@@ -1,0 +1,15 @@
+ntrain_samples: 2000
+ntrain_samples2: 1000
+depth: 3
+rank1: 5 # 5
+rank2: 5
+epoch_continue: 20000 # 30000
+sgd_lr: 0.2  # 0.5
+init_scale: 0.001 # 0.001
+matrix_dim: 100
+hidden_dim: 100
+seed: 1
+output_dir: multipath-development/output-multipath-dev
+initialization: 'identity' # 'gaussian
+T_critical_list: [ 0, 20000 ] # , 1000, 5000, 10000 , 20000, 40000, 60000, 80000, 100000
+optimizer: 'sgd'

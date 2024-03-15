@@ -1,0 +1,12 @@
+ntrain_samples: 10000 #5000
+depth: 2
+rank1: 5 # 5
+sgd_lr: 0.5  # 0.5
+init_scale: 0.01 #2e-6 # 0.001
+matrix_dim: 100
+hidden_dim: 100
+seed: 1
+initialization: 'analytical'
+optimizer: 'sgd'
+n_iters: 20000 #20000
+n_iters_task1: 10000
