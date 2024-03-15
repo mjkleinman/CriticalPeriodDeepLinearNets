@@ -149,12 +149,14 @@ def main(args):
                 ax[jj].plot(indices[::nskip], z1[::nskip], color=cm.tab10(sing_value_idx), alpha=0.8, linewidth=0.75)
                 ax[jj].scatter(indices[::nskip], z2[::nskip], s=26, color=cm.tab10(sing_value_idx), marker='+',
                                label=r'SGD $K_{b\alpha}$', alpha=0.8)
+                ax[jj].plot(indices[::nskip], z2[::nskip], color=cm.tab10(sing_value_idx), alpha=0.8, linewidth=0.75)
             else:
                 ax[jj].scatter(indices[::nskip], z1[::nskip], s=13, color=cm.tab10(sing_value_idx), alpha=0.8,
                                marker='x')
                 ax[jj].plot(indices[::nskip], z1[::nskip], color=cm.tab10(sing_value_idx), alpha=0.8, linewidth=0.75)
                 ax[jj].scatter(indices[::nskip], z2[::nskip], s=26, color=cm.tab10(sing_value_idx), marker='+',
                                alpha=0.8)
+                ax[jj].plot(indices[::nskip], z2[::nskip], color=cm.tab10(sing_value_idx), alpha=0.8, linewidth=0.75)
             # if sing_value_idx == 0:
             #     ax[jj].scatter(indices[::nskip], z1[::nskip], s=9, color=cm.tab10(sing_value_idx),
             #                    label=r'SGD $K_{a\alpha}$', alpha=0.8, marker='x')
